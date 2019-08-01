@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import './navigation.css'
+import navbar from './navigation.module.css'
 
 import Home from '../home/home'
 import Presentation from "../presentation/presentation";
@@ -8,6 +8,7 @@ import Actions from "../actions/actions";
 import Partenaires from "../partenaires/partenaires";
 import Dons from "../dons/dons";
 import Contact from "../contact/contact";
+import Missions from "../mission/missions";
 
 class Navigation extends Component {
 
@@ -17,18 +18,20 @@ class Navigation extends Component {
             <Router>
                 <div>
                     <nav className="">
-                        <ul className="nav-items">
-                            <li><Link to={'/'} className="nav-link"> Accueil </Link></li>
-                            <li><Link to={'/presentation'} className="nav-link">Presentation</Link></li>
-                            <li><Link to={'/actions'} className="nav-link">Nos actions</Link></li>
-                            <li><Link to={'/partenaires'} className="nav-link">Nos partenaires</Link></li>
-                            <li><Link to={'/dons'} className="nav-link">Faire un don</Link></li>
-                            <li><Link to={'/contact'} className="nav-link">Contactez-nous</Link></li>
+                        <ul className={ navbar.items }>
+                            <li><Link to={'/'} className={ navbar.link }> Accueil </Link></li>
+                            <li><Link to={'/presentation'} className={ navbar.link }>Presentation</Link></li>
+                            <li><Link to={'/missions'} className={ navbar.link }>Nos missions</Link></li>
+                            <li><Link to={'/actions'} className={ navbar.link }>Nos actions</Link></li>
+                            <li><Link to={'/partenaires'} className={ navbar.link }>Nos partenaires</Link></li>
+                            <li><Link to={'/dons'} className={ navbar.link }>Faire un don</Link></li>
+                            <li><Link to={'/contact'} className={ navbar.link }>Contactez-nous</Link></li>
                         </ul>
                     </nav>
                     <Switch>
                         <Route exact path='/' component={ Home } />
                         <Route path='/presentation' component={ Presentation } />
+                        <Route path='/missions' component={ Missions } />
                         <Route path='/actions' component={ Actions } />
                         <Route path='/partenaires' component={ Partenaires } />
                         <Route path='/dons' component={ Dons } />

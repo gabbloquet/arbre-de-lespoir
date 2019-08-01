@@ -1,58 +1,39 @@
 import React, { Component } from 'react';
-import './actions.css';
+import actions from './actions.module.css';
+import classNames from 'classnames'
 
 class Actions extends Component {
     render() {
+
+        const containerLeft = classNames(actions.container, actions.left);
+        const containerRight= classNames(actions.container, actions.right);
+
         return (
             <div className={ Actions }>
                 <h1>Actions</h1>
-                <div className="timeline">
-                    <div className="container left">
-                        <div className="content">
-                            <h2>2017</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
-                                voluptua dignissim per, habeo iusto primis ea eam.</p>
+                <div className={ actions.timeline }>
+                    <div className={ containerLeft }>
+                        <div className={ actions.content }>
+                            <h2>Juillet 2019 : Opération Clos- couverts</h2>
+                            <p>500€</p>
+                            <p>Réfection de la toiture et des fenêtre d’une école privée au village de Daboura (Burkina Faso).</p>
+                            <h1>!! METTRE LES PHOTOS !!</h1>
                         </div>
                     </div>
-                    <div className="container right">
-                        <div className="content">
-                            <h2>2016</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
-                                voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <div className={ containerRight }>
+                        <div className={ actions.content }>
+                            <h2>Juin 2019 : Dons de matériels médicaux</h2>
+                            <p>500€</p>
+                            <p>Envois de matériels médicaux d’un dispensaire au village de Daboura.</p>
+                            <h1>!! METTRE LES PHOTOS !!</h1>
                         </div>
                     </div>
-                    <div className="container left">
-                        <div className="content">
-                            <h2>2015</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
-                                voluptua dignissim per, habeo iusto primis ea eam.</p>
-                        </div>
-                    </div>
-                    <div className="container right">
-                        <div className="content">
-                            <h2>2012</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
-                                voluptua dignissim per, habeo iusto primis ea eam.</p>
-                        </div>
-                    </div>
-                    <div className="container left">
-                        <div className="content">
-                            <h2>2011</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
-                                voluptua dignissim per, habeo iusto primis ea eam.</p>
-                        </div>
-                    </div>
-                    <div className="container right">
-                        <div className="content">
-                            <h2>2007</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
-                                voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <div className={ containerLeft }>
+                        <div className={ actions.content }>
+                            <h2>Mai 2019 : Opération Panier Humanitaire</h2>
+                            <p>1200€</p>
+                            <p>Distribution de panier (riz, laits, eaux, sucres, dattes, huiles).</p>
+                            <h1>!! METTRE LES PHOTOS !!</h1>
                         </div>
                     </div>
                 </div>

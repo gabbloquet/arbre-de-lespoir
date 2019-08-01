@@ -1,3 +1,17 @@
 .App {
   text-align: center;
+  margin: auto;
+}
+
+h1 {
+  color: #2F4F4F;
+}
+
+h2 {
+  color: #696969;
+}
+
+h3 {
+  color: #A9A9A9;
+  font-size: larger;
 }

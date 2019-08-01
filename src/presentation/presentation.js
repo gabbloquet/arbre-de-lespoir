@@ -1,56 +1,77 @@
 import React, { Component } from 'react';
 import avatar from './img/img_avatar.png';
-import styles from './presentation.css';
+import styles from './presentation.module.css';
 
 class Presentation extends Component {
     render() {
         return (
-            <div className={Presentation}>
+            <div className={ styles.presentation }>
                 <h1>Presentation</h1>
                 <h2>L'histoire de notre association</h2>
                 <p>L’ARBRE DE L’ESPOIR (ADE) est une association loi 1901. L’ADE a été créée en décembre 2018 par un groupe d'amis sensible à la situation des migrants en France et la précarité en Afrique. L’ADE a pour objectif d’aider les personnes à vivre dignement dans leur environnement tout en assurant une perspective d’avenir pour eux même et leurs enfants.</p>
-                <h2>Les différents membres de l'association</h2>
                 <div className={ styles.cards }>
                     <div className={ styles.card }>
-                        <img className={ styles.card } src={ avatar } alt="Avatar"/>
+                        <h2>L'icône de l'association</h2>
+                        <img src={ avatar } alt="Avatar"/>
                         <div className={ styles.container }>
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
+                            <h4><b>LY Aly Sileymane</b></h4>
+                            <p>Icône</p>
                         </div>
                     </div>
                     <div className={ styles.card }>
-                        <img className={ styles.card } src={ avatar } alt="Avatar"/>
+                        <h2>Soutien de l'association</h2>
+                        <img  src={ avatar } alt="Avatar"/>
                         <div className={ styles.container }>
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
-                    </div>
-                    <div className={ styles.card }>
-                        <img className={ styles.card } src={ avatar } alt="Avatar"/>
-                        <div className={ styles.container }>
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
-                    </div>
-                    <div className={ styles.card }>
-                        <img className={ styles.card } src={ avatar } alt="Avatar"/>
-                        <div className={ styles.container }>
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
+                            <h4><b>ADJOVI BOCO Jimmy</b></h4>
+                            <p>Ex footballeur professionnel, Président d'association & Membre du CPA</p>
                         </div>
                     </div>
                 </div>
-                <h2>Mission de l'arbre de l'espoir</h2>
-                <ul>
-                    <li>AGIR pour le respect du droit à une éducation et l’accès aux soin</li>
-                    <li>SENSIBILISER, mobiliser et influer pour que l’éducation soit un droit acquis</li>
-                    <li>ACCOMPAGNER les populations, maîtres d’œuvre de leurs projets éducatifs</li>
-                    <li>PARTICIPER à l’éducation et l’émancipation des populations</li>
-                    <li>CREER les conditions d’une croissance économique pour l’amélioration des</li>
-                    conditions de vie
-                    <li>PROMOUVOIR une éducation ouverte sur le monde, sa diversité et ses cultures</li>
-                    <li>DÉVELOPPER le principe de solidarité et d’échange</li>
-                </ul>
+                <h2>Les autres membres de l'association</h2>
+                <div className={ styles.cards }>
+                    <div className={ styles.card }>
+                        <img  src={ avatar } alt="Avatar"/>
+                        <div className={ styles.container }>
+                            <h4><b>LY Moustapha</b></h4>
+                            <p>Président</p>
+                        </div>
+                    </div>
+                    <div className={ styles.card }>
+                        <img  src={ avatar } alt="Avatar"/>
+                        <div className={ styles.container }>
+                            <h4>SANKARA Issa</h4>
+                            <p>Secrétaire Général</p>
+                        </div>
+                    </div>
+                    <div className={ styles.card }>
+                        <img  src={ avatar } alt="Avatar"/>
+                        <div className={ styles.container }>
+                            <h4><b>KABA Fatoumata</b></h4>
+                            <p>Trésorière</p>
+                        </div>
+                    </div>
+                    <div className={ styles.card }>
+                        <img  src={ avatar } alt="Avatar"/>
+                        <div className={ styles.container }>
+                            <h4><b>SOW Banel</b></h4>
+                            <p>Chargée de communication</p>
+                        </div>
+                    </div>
+                    <div className={ styles.card }>
+                        <img  src={ avatar } alt="Avatar"/>
+                        <div className={ styles.container }>
+                            <h4><b>ROBLEH FARAH Hassan</b></h4>
+                            <p>Chargé de projets</p>
+                        </div>
+                    </div>
+                    <div className={ styles.card }>
+                        <img  src={ avatar } alt="Avatar"/>
+                        <div className={ styles.container }>
+                            <h4><b>BLOQUET Gabin</b></h4>
+                            <p>Chargé de communication externe & Développeur</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
