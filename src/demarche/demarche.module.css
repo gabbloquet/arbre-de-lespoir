@@ -1,0 +1,25 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    background-color: #c7a880;
+    padding: 1em;
+    border-radius: 10%;
+    margin: 0 auto;
+    font-size: 1.6em;
+}
+
+.valeurs {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.valeur {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 1em;
+    margin: 1em;
+    background-color: #89b252;
+    color: white;
+}

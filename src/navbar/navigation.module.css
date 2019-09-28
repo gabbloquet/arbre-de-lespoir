@@ -14,8 +14,8 @@ body, html{
     list-style: none;
     margin: 0;
     background: #03001e;
-    background: -webkit-linear-gradient(to right, #ffffff, #dbd492, #dbd492, #a2bdbd);
-    background: linear-gradient(to right, #ffffff, #dbd492, #dbd492, #a2bdbd);
+    background: -webkit-linear-gradient(to right, #ffffff, #89b252, #45733f, #c7a880, #524123);
+    background: linear-gradient(to right, #ffffff, #89b252, #45733f, #c7a880, #524123);
 
     display: flex;
     flex-flow: row wrap;
@@ -34,5 +34,9 @@ body, html{
 }
 
 .items a:hover{
-    font-weight: bolder;
+    font-style: oblique;
+}
+
+li#active a{
+    text-decoration: underline;
 }

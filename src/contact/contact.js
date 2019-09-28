@@ -10,7 +10,7 @@ class Contact extends Component {
                 <div className={ styles.card }>
                     <img className={ styles.logo } src={ arbreLogo} alt="Arbre de l'espoir"/>
                     <div className={ styles.informations }>
-                        <h2>Courriel : larbredelespoir@gmail.com</h2>
+                        <h2>Courriel : <a href="mailto:larbredelespoir@gmail.com">larbredelespoir@gmail.com</a></h2>
                         <h2>Numero du secrétaire générale  : +33 6 42 55 83 49</h2>
                         <h2>Numero de téléphone : +33 7 82 94 62 13</h2>
                         <h2>Website : <a href="https://www.arbredelespoir.com/">Arbre de l'espoir</a></h2>

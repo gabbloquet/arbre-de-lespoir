@@ -2,28 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c78299-b658-4062-ade7-3bee6b0e7fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/arbre_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contact/contact.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dons/dons.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mission/missions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mission/missions.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partenaires/partenaire.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/ALY-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/FIFI-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0006-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0009-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0012-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0014-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/ISSA-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/MOUSTAPHA-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/equipe-min.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/PUITS-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/Talibe_ECOLE-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/classe_uni.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/daaras.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/ecole à rénover-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/poste de sante-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/soutien_scolaire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/tournoi foot-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/rib.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demarche/demarche.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demarche/demarche.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipe/equipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipe/equipe.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actions.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actions.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actions.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dons/dons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dons/dons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dons/dons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dons/dons.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navbar/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mission/missions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mission/missions.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navbar/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navbar/navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navigation.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partenaires/partenaires.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/partenaires/partenaires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/presentation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/presentation.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/presentation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/presentation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/presentation.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +60,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OWLwR3mUfscoF6vJEchCXrJyDH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -92,6 +113,14 @@
       <workItem from="1563649299954" duration="9613000" />
       <workItem from="1564088647557" duration="2395000" />
       <workItem from="1564514137375" duration="11809000" />
+      <workItem from="1564831708685" duration="8998000" />
+      <workItem from="1564986936709" duration="163000" />
+      <workItem from="1565555876188" duration="245000" />
+      <workItem from="1566767261156" duration="2566000" />
+      <workItem from="1566979695207" duration="788000" />
+      <workItem from="1567748794715" duration="2266000" />
+      <workItem from="1567801267206" duration="8232000" />
+      <workItem from="1568094228620" duration="2652000" />
     </task>
     <servers />
   </component>
@@ -110,5 +139,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
