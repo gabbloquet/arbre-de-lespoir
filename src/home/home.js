@@ -13,7 +13,7 @@ class Home extends Component {
             <div className="Home">
                 <div className={  styles.banner }>
                     <div className= {  styles.bannerTitle }>
-                        <h1>L'arbre de l'espoir</h1>
+                        <h1>Accueil</h1>
                         <h3><i>On ne peut pas aider tout le monde, mais tout le monde peut aider quelqu'un.</i></h3>
                     </div>
                 </div>

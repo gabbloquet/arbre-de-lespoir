@@ -2,45 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c78299-b658-4062-ade7-3bee6b0e7fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/ALY-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/FIFI-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0006-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0009-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0012-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/IMG_0014-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/ISSA-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/MOUSTAPHA-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/portraits/equipe-min.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/PUITS-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/Talibe_ECOLE-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/classe_uni.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/daaras.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/ecole à rénover-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/poste de sante-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/soutien_scolaire.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projets/tournoi foot-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/rib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demarche/demarche.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demarche/demarche.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipe/equipe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipe/equipe.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navbar/item/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navbar/item/item.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navbar/lead/lead.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navbar/lead/lead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navbar/navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actions.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actions.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dons/dons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dons/dons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dons/dons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dons/dons.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mission/missions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mission/missions.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navbar/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navbar/navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partenaires/partenaires.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/partenaires/partenaires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/presentation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/presentation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/presentation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navbar/navigation.module.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +93,7 @@
       <workItem from="1567748794715" duration="2266000" />
       <workItem from="1567801267206" duration="8232000" />
       <workItem from="1568094228620" duration="2652000" />
+      <workItem from="1569684528648" duration="9102000" />
     </task>
     <servers />
   </component>
