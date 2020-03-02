@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c78299-b658-4062-ade7-3bee6b0e7fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/navbar/item/item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navbar/item/item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navbar/lead/lead.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navbar/lead/lead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navbar/navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navbar/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navbar/navigation.module.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +28,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -93,7 +85,8 @@
       <workItem from="1567748794715" duration="2266000" />
       <workItem from="1567801267206" duration="8232000" />
       <workItem from="1568094228620" duration="2652000" />
-      <workItem from="1569684528648" duration="9102000" />
+      <workItem from="1569684528648" duration="9628000" />
+      <workItem from="1569710387811" duration="102000" />
     </task>
     <servers />
   </component>
