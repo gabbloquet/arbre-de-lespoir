@@ -39,7 +39,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "webpack.config.js",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
+    "@babel/cli": "^7.10.0",
     "@babel/preset-env": "^7.5.5",
     "babel-core": "^7.0.0-bridge.0"
   },
