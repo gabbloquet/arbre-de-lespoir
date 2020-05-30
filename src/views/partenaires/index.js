@@ -3,7 +3,7 @@ import styles from "../equipe/equipe.module.css";
 import avatar from "../presentation/img/img_avatar.png";
 // import styles from './partenaire.module.css';
 
-class Partenaires extends Component {
+class Index extends Component {
     render() {
         return (
             <div className="partenaires">
@@ -44,4 +44,4 @@ class Partenaires extends Component {
     }
 }
 
-export default Partenaires;
+export default Index;

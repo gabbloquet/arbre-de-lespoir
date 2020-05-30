@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styles from './demarche.module.css';
 
-class Demarche extends Component {
+class Index extends Component {
     render() {
         return (
             <div className="missions">
@@ -26,4 +26,4 @@ class Demarche extends Component {
     }
 }
 
-export default Demarche;
+export default Index;

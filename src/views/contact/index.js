@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import styles from './contact.module.css';
-import arbreLogo from '../assets/img/arbre_logo.png';
+import arbreLogo from '../../assets/img/arbre_logo.png';
 
-class Contact extends Component {
+class Index extends Component {
     render() {
         return (
-            <div className={ Contact }>
+            <div className={ Index }>
                 <h1>Nous contactez</h1>
                 <div className={ styles.card }>
                     <img className={ styles.logo } src={ arbreLogo} alt="Arbre de l'espoir"/>
@@ -22,4 +22,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default Index;

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import styles from './home.module.css'
-import classeConnectee from '../assets/img/projets/classe_uni.PNG'
-import sante from '../assets/img/projets/poste de sante-min.jpg'
-import soutienScolaire from '../assets/img/projets/soutien_scolaire.jpg'
-import daaras from '../assets/img/projets/daaras.jpg'
+import classeConnectee from '../../assets/img/projets/classe_uni.PNG'
+import sante from '../../assets/img/projets/poste de sante-min.jpg'
+import soutienScolaire from '../../assets/img/projets/soutien_scolaire.jpg'
+import daaras from '../../assets/img/projets/daaras.jpg'
 
-class Home extends Component {
+class Index extends Component {
 
     render() {
 
@@ -94,4 +94,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Index;

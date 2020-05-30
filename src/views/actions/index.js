@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import actions from './actions.module.css';
 import classNames from 'classnames'
 
-class Actions extends Component {
+class Index extends Component {
     render() {
 
         const containerLeft = classNames(actions.container, actions.left);
         const containerRight= classNames(actions.container, actions.right);
 
         return (
-            <div className={ Actions }>
+            <div className={ Index }>
                 <h1>Actions</h1>
                 <div className={ actions.timeline }>
                     <div className={ containerLeft }>
@@ -42,4 +42,4 @@ class Actions extends Component {
     }
 }
 
-export default Actions;
+export default Index;
