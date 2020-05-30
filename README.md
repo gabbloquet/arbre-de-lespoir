@@ -1,6 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# L’ARBRE DE L’ESPOIR
 
-## Available Scripts
+## Présentation 
+L’ARBRE DE L’ESPOIR (ADE) est une association loi 1901. 
+L’ADE a été créée en décembre 2018 par un groupe d'amis sensible à la situation des migrants en France et la précarité en Afrique. L’ADE a pour objectif d’aider les personnes à vivre dignement dans leur environnement tout en assurant une perspective d’avenir pour eux même et leurs enfants.
+
+## Site web
+Ce repository est le site web de l'association. Vous pouvez retrouver ce site ici [Arbre de l'espoir](http://larbredelespoir.fr/).
+
+## Développement
+Celui-ci a été développé grâce à la librairie React.js.
+
+## Contribution
+Vous pouvez contribuer en laissant une issue pour proposer des changements, en créant une pull request pour proposer une solution technique. Attention, la proposition d'une pull request doit suivre la création d'une issue à laquelle elle doit être reliée.
+
+## Faire fonctionner le projet
 
 In the project directory, you can run:
 
