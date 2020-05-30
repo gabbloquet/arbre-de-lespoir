@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import styles from './equipe.module.css';
-import Fatoumata from "../assets/img/portraits/FIFI-min.JPG";
-import Aly from "../assets/img/portraits/ALY-min.JPG";
-import Issa from "../assets/img/portraits/ISSA-min.JPG";
-import Moustapha from "../assets/img/portraits/MOUSTAPHA-min.JPG";
+import Fatoumata from "../../assets/img/portraits/FIFI-min.JPG";
+import Aly from "../../assets/img/portraits/ALY-min.JPG";
+import Issa from "../../assets/img/portraits/ISSA-min.JPG";
+import Moustapha from "../../assets/img/portraits/MOUSTAPHA-min.JPG";
 
-class Equipe extends Component {
+class Index extends Component {
     render() {
         return (
             <div className={ styles.equipe }>
@@ -86,4 +86,4 @@ class Equipe extends Component {
     }
 }
 
-export default Equipe;
+export default Index;

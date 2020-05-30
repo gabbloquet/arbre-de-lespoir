@@ -5,16 +5,16 @@ import faBars from '@fortawesome/fontawesome-free-solid/faBars'
 
 import './navigation.css'
 
-import Home from '../home/home'
-import Presentation from "../presentation/presentation";
-import Actions from "../actions/actions";
-import Partenaires from "../partenaires/partenaires";
-import Dons from "../dons/dons";
-import Contact from "../contact/contact";
-import Demarche from "../demarche/demarche";
-import Equipe from "../equipe/equipe";
-import Item from "./item/item";
-import Lead from "./lead/lead";
+import Home from '../../views/home'
+import Presentation from "../../views/presentation";
+import Actions from "../../views/actions";
+import Partenaires from "../../views/partenaires";
+import Dons from "../../views/dons";
+import Contact from "../../views/contact";
+import Demarche from "../../views/demarche";
+import Equipe from "../../views/equipe";
+import Item from "./item";
+import Lead from "./lead";
 
 class Navigation extends Component {
 

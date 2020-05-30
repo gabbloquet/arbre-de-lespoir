@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styles from './presentation.module.css';
-import equipe from "../assets/img/portraits/equipe-min.JPG";
+import equipe from "../../assets/img/portraits/equipe-min.JPG";
 
-class Presentation extends Component {
+class Index extends Component {
     render() {
         return (
             <div className={ styles.presentation }>
@@ -15,4 +15,4 @@ class Presentation extends Component {
     }
 }
 
-export default Presentation;
+export default Index;
