@@ -14,7 +14,7 @@ const Dons = () => {
                     <p>Tél………………………………………………………………………….</p>
                     <p>Mail…………………………………………………………………………...</p>
                 </form>
-                <h3>Remplissez ce formulaire et envoyez le à notre <a href="mailto:larbredelespoir@gmail.com"> adresse mail</a></h3>
+                <h3>Remplissez ce formulaire et envoyez le à notre <a href="mailto:larbredelespoir@gmail.com"> larbredelespoir@gmail.com</a></h3>
             </div>
             <div className={ styles.card }>
                 <h1>Faire un don</h1>
