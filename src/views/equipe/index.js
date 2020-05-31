@@ -48,18 +48,7 @@ const Equipe = () => {
                         </div>
                         <div className={ styles.flipCardBack }>
                             <h4><b>KABA Fatimata</b></h4>
-                            <p>La lutte contre la précarité et les difficultés sociales partout dans le monde sont les raisons principales
-                                qui m’ont poussé à m’engager pour d'autres au nom de la solidarité.
-                                Traductrice trilingue (EN-FR-ESP) de formation, j’ai choisi d’être utile à autrui et à la société grâce à un
-                                engagement associatif qui repose sur des valeurs essentielles telles que la fraternité et la solidarité,
-                                valeurs que j’ai pu promouvoir au sein de l’Arbre de l’Espoir.
-                                A l’aube de mes 28 ans, je suis de plus en plus persuadée qu’il est du devoir de chacun(e) d’agir, selon
-                                ses capacités, en faveur de ceux et celles qui ont besoin d’aide partout dans le monde en prenant part
-                                à tout type de décisions et d’actions visant notamment à favoriser la santé, l’éducation, la protection
-                                sociale, particulièrement pour les jeunes, les migrants et autres personnes vulnérables.
-                                Comme l’a si bien écrit Saint-Exupéry dans Terre des hommes : « Être homme, c'est précisément être
-                                responsable. C'est connaître la honte en face d'une misère qui ne semblait pas dépendre de soi... C'est
-                                sentir, en posant sa pierre, que l'on contribue à bâtir le monde. »</p>
+                            <p>La lutte contre la précarité et les difficultés sociales partout dans le monde sont les raisons principales qui m’ont poussé à m’engager pour d'autres au nom de la solidarité. Traductrice trilingue (EN-FR-ESP) de formation, j’ai choisi d’être utile à autrui et à la société grâce à un engagement associatif qui repose sur des valeurs essentielles telles que la fraternité et la solidarité, valeurs que j’ai pu promouvoir au sein de l’Arbre de l’Espoir. A l’aube de mes 28 ans, je suis de plus en plus persuadée qu’il est du devoir de chacun(e) d’agir, selon ses capacités, en faveur de ceux et celles qui ont besoin d’aide partout dans le monde en prenant part à tout type de décisions et d’actions visant notamment à favoriser la santé, l’éducation, la protection sociale, particulièrement pour les jeunes, les migrants et autres personnes vulnérables.</p>
                         </div>
                     </div>
                 </div>

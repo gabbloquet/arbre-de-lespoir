@@ -83,9 +83,6 @@ const Home = () => {
                     </div>
                 </figure>
             </div>
-
-            <h2>Projets réalisés</h2>
-
         </div>
     );
 }
