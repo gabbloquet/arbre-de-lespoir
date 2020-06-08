@@ -44,7 +44,8 @@
     "@babel/preset-env": "^7.10.2",
     "babel-core": "^7.0.0-bridge.0",
     "minimist": "^1.2.5",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "websocket-extensions": "0.1.4"
   },
   "keywords": [],
   "author": "",
