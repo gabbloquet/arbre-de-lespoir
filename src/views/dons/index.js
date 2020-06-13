@@ -17,31 +17,33 @@ const Dons = () => {
                   <input type="text" className="form__field" placeholder="Nom" name="nom" ref={register({ required: true })}/>
                   <label htmlFor="nom" className="form__label">Nom</label>
                 </div>
-                {errors.nom && <span>This field is required</span>}
+                {errors.nom && <span className="required-field">Veuillez renseigner cette information</span>}
 
                 <div className="form__group field">
                   <input type="text" className="form__field" placeholder="Prénom" name="prenom" ref={register({ required: true })}/>
                   <label htmlFor="prenom" className="form__label">Prénom</label>
                 </div>
-                {errors.prenom && <span>This field is required</span>}
+                {errors.prenom && <span className="required-field">Veuillez renseigner cette information</span>}
 
                 <div className="form__group field">
-                  <input type="text" className="form__field" placeholder="Adresse" name="adresse" ref={register}/>
+                  <input type="text" className="form__field" placeholder="Adresse" name="adresse" ref={register({ required: true })}/>
                   <label htmlFor="adresse" className="form__label">Adresse</label>
                 </div>
+                {errors.adresse && <span className="required-field">Veuillez renseigner cette information</span>}
 
                 <div className="form__group field">
-                  <input type="text" className="form__field" placeholder="Telephone" name="telephone" ref={register}/>
+                  <input type="text" className="form__field" placeholder="Telephone" name="telephone" ref={register({ required: true })}/>
                   <label htmlFor="telephone" className="form__label">Telephone</label>
                 </div>
+                {errors.telephone && <span className="required-field">Veuillez renseigner cette information</span>}
 
                 <div className="form__group field">
-                  <input type="email" className="form__field" placeholder="Email" name="Email" ref={register}/>
+                  <input type="email" className="form__field" placeholder="Email" name="email" ref={register({ required: true })}/>
                   <label htmlFor="mail" className="form__label">Email</label>
                 </div>
-                {errors.mail && <span>This field is required</span>}
+                {errors.email && <span className="required-field">Veuillez renseigner cette information</span>}
 
-                <button type="submit" id="btn">
+                <button type="submit" id="validate-button">
                   <span className="noselect">Valider</span>
                   <div id="circle"/>
                 </button>

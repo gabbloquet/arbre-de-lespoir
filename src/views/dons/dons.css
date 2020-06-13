@@ -84,7 +84,12 @@ form {
     box-shadow: none;
 }
 
-#btn {
+.required-field{
+    margin-top: 5px;
+    color: aquamarine;
+}
+
+#validate-button {
     background: #45733f;
     height: 50px;
     min-width: 150px;
