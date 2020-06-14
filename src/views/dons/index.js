@@ -2,10 +2,13 @@ import React from 'react';
 import rib from "../../assets/img/rib.jpg";
 import './dons.css';
 import { useForm } from "react-hook-form";
+import { sendMail } from "../../services/mail/mailSender";
 
 const Dons = () => {
   const { register, handleSubmit, errors } = useForm();
-  const onSubmit = data => {
+
+  const onSubmit = formData => {
+    sendMail(formData);
   }
 
   return (
@@ -42,6 +45,11 @@ const Dons = () => {
                   <label htmlFor="mail" className="form__label">Email</label>
                 </div>
                 {errors.email && <span className="required-field">Veuillez renseigner cette information</span>}
+
+                <div className="form__group field">
+                  <textarea className="form__field" placeholder="Laissez noius un message si vous le souhaitez" name="message" ref={register()}/>
+                  <label htmlFor="message" className="form__label">Message</label>
+                </div>
 
                 <button type="submit" id="validate-button">
                   <span className="noselect">Valider</span>
