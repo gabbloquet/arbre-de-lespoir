@@ -53,7 +53,7 @@ const Equipe = () => {
                     </div>
                 </div>
             </div>
-            <h2>L'icône de l'association'</h2>
+            <h2>L'icône de l'association</h2>
             <div className={ styles.cards }>
                 <div className={ styles.flipCard }>
                     <div className={ styles.flipCardInner }>
