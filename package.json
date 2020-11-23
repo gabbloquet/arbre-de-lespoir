@@ -42,7 +42,7 @@
   "main": "webpack.config.js",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
-    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
     "babel-core": "^7.0.0-bridge.0",
     "minimist": "^1.2.5",
     "prettier": "2.1.2",
