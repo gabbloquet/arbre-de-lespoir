@@ -1,0 +1,21 @@
+.contact {
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: white;
+        margin: auto;
+        width: 90%;
+        height: 400px;
+        border-radius: 20%;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .informations {
+        display: flex;
+        flex-direction: column;
+    }
+}

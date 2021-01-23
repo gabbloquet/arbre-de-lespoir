@@ -1,8 +1,8 @@
 import React from 'react';
-import rib from "../../assets/img/rib.jpg";
-import './dons.css';
 import { useForm } from "react-hook-form";
 import { sendMail } from "../../services/mail/mailSender";
+import rib from "../../assets/img/rib.jpg";
+import './dons.scss';
 
 const Dons = () => {
   const { register, handleSubmit, errors } = useForm();
@@ -12,6 +12,7 @@ const Dons = () => {
   }
 
   return (
+    <section className="dons">
       <div className="cards">
           <div className="card">
               <h1>Nous rejoindre</h1>
@@ -66,6 +67,7 @@ const Dons = () => {
               <h2>Toute l'équipe vous remercie.</h2>
           </div>
       </div>
+    </section>
   );
 }
 
