@@ -44,6 +44,8 @@
     "@babel/cli": "^7.12.10",
     "@babel/preset-env": "^7.12.7",
     "babel-core": "^7.0.0-bridge.0",
+    "immer": "^8.0.1",
+    "ini": "^2.0.0",
     "minimist": "^1.2.5",
     "prettier": "2.2.1",
     "websocket-extensions": "0.1.4"
