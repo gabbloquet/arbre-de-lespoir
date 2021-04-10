@@ -1,0 +1,20 @@
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    font-style: italic;
+}
+
+.right a {
+    font-weight: bold;
+}
+
+.right a:hover{
+    font-style: oblique;
+}
+
+li#active a{
+    text-decoration: underline;
+}

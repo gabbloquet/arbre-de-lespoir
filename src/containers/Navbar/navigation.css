@@ -12,14 +12,6 @@ body, html{
     float: right;
 }
 
-.items a:hover{
-    font-style: oblique;
-}
-
-li#active a{
-    text-decoration: underline;
-}
-
 .top-menu {
     background: -webkit-linear-gradient(to right, #89b252, #45733f, #c7a880, #524123);
     background: linear-gradient(to right, #89b252, #45733f, #c7a880, #524123);
