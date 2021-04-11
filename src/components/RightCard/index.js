@@ -31,7 +31,6 @@ const RightCard = ({ alt, date, description, img, objectifs, title }) => {
         src={img}
         alt={alt}
         htmlWidth={'50%'}
-        p="5px"
         borderTopRightRadius={'8px'}
         borderBottomRightRadius={'8px'}
       />
