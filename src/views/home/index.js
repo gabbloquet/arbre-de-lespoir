@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Heading, Text } from '@chakra-ui/react';
+import { Box, Flex, Heading, Text } from '@chakra-ui/react';
 import classeConnectee from '../../assets/img/projets/classe_uni.PNG';
 import sante from '../../assets/img/projets/poste de sante-min.jpg';
 import soutienScolaire from '../../assets/img/projets/soutien_scolaire.jpg';
@@ -10,7 +10,7 @@ import RightCard from '../../components/RightCard';
 
 const Home = () => {
   return (
-    <Text align={'center'}>
+    <Box align={'center'}>
       <Flex p={6} justifyContent="space-between">
         <Heading as="h2" size="xl">
           Nos projets
@@ -59,7 +59,7 @@ const Home = () => {
           objectifs="Lutter contre les maladies chroniques et la malnutrition."
         />
       </Flex>
-    </Text>
+    </Box>
   );
 };
 
