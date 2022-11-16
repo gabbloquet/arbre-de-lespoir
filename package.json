@@ -10,7 +10,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^10.0.0",
+    "babel-preset-react-app": "^10.0.1",
     "classnames": "^2.3.1",
     "emailjs-com": "^2.6.4",
     "framer-motion": "^4.1.17",
