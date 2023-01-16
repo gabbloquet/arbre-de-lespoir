@@ -19,7 +19,7 @@
     "react-hook-form": "^6.15.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "serialize-javascript": ">=5.0.1"
+    "serialize-javascript": ">=6.0.1"
   },
   "scripts": {
     "watch:sass": "sass --watch src/style/main.scss src/index.css",
